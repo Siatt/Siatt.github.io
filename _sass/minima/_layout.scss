@@ -100,7 +100,38 @@
   }
   
   
-  
+  /**
+  * Landing page
+  */
+  .landing-page{
+    @include relative-font-size(1.625);
+    background-image:url("/img/keyboard.jpg");
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    img {
+      height: 4%;
+    }
+  }
+  .bounce{
+    -webkit-animation: bounce 3s infinite;
+  }
+  .bounce:hover {
+    cursor:pointer ;
+  }
+  @keyframes bounce {
+    0% {-webkit-transform: translateY(0px);}
+    25% {-webkit-transform: translateY(15px);}
+    50% {-webkit-transform: translateY(0px);}
+    75%{-webkit-transform: translateY(15px);}
+    100% {-webkit-transform: translateY(0px);}
+  }
+
+
+
   /**
    * Site footer
    */

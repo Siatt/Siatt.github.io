@@ -1,7 +1,6 @@
 ---
 layout: blog_post
 title:  "Test post"
-meta:  "Some meta data"
 date:   2017-11-13 12:11:21 -0600
 categories: jekyll update
 ---

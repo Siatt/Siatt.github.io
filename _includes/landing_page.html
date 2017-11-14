@@ -1,0 +1,15 @@
+<div class="landing-page">
+    <h1>Tech blog</h1>
+    <h6>Something else</h6>
+    <img onclick="scrollDown(this)" onmouseover="bounce(this)" src="/img/arrow-down.png" alt="arrow-down" id="arrow-down">
+</div>
+<script>
+    let arrow = document.getElementById("arrow-down")
+    function bounce(){
+        arrow.className = "bounce"
+    }
+    function scrollDown() {
+        let scroll = document.getElementById('start').scrollIntoView({behavior:'smooth', block: 'start', inline: 'center'})
+
+    }
+</script>
