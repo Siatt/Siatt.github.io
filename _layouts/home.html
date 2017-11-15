@@ -14,7 +14,6 @@ layout: home_default
         <h2>
           <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
         </h2>
-        {% include meta_data.html %}
         <p>{{post.meta | escape}}</p>
       </li>
     {% endfor %}

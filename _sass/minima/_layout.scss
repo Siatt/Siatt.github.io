@@ -50,7 +50,6 @@
       top: 9px;
       right: $spacing-unit / 2;
       background-color: $background-color;
-      border: 1px solid $grey-color-light;
       border-radius: 5px;
       text-align: right;
   
@@ -85,8 +84,12 @@
       input:checked ~ .trigger {
         display: block;
         padding-bottom: 5px;
+        -webkit-animation: menu 1s;
       }
-  
+      @keyframes menu {
+        0% {-webkit-transform: translateX(100px)}
+        100% {-webkit-transform: translateX(0px)}
+      }
       .page-link {
         display: block;
         padding: 5px 10px;
@@ -113,7 +116,7 @@
     justify-content: center;
     align-items: center;
     img {
-      height: 4%;
+      height: 5%;
     }
   }
   .bounce{
@@ -128,6 +131,43 @@
     50% {-webkit-transform: translateY(0px);}
     75%{-webkit-transform: translateY(15px);}
     100% {-webkit-transform: translateY(0px);}
+  }
+  /**
+  * Right pictures
+  */
+  .right-pictures{
+    float: right;
+    width: 50%;
+  }
+  .column {
+    float: left;
+    width: 44%;
+    padding: 10px;
+    opacity: 0;
+    img{
+      margin-top: 10px;
+      -webkit-filter: sepia(10%);
+      filter: sepia(10%);
+      border-radius: 5px;
+    }
+    #fade-in-top{
+      -webkit-animation: slideintop 2s;
+    }
+    #fade-in-right{
+      -webkit-animation: slideinright 2s;
+    }
+  }
+  @keyframes slideintop {
+    0% {-webkit-transform: translateY(-100px);
+    opacity: 0;}
+    80% {opacity: 1}
+    100% {-webkit-transform: translateY(0px)}
+  }
+  @keyframes slideinright {
+    0% {-webkit-transform: translateX(100px);
+    opacity: 0;}
+    80% {opacity: 1}
+    100% {-webkit-transform: translateX(0px)}
   }
 
 

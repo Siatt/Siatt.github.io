@@ -8,6 +8,22 @@
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
+        <div class="right-pictures" id="pic-wrapper">
+          <div class="column" id="col1">
+            <img src="/img/tech.jpg" alt="keyboard" onclick="setId(this)">
+            <img src="/img/code.jpg" alt="keyboard">
+            <img src="/img/keyboard.jpg" alt="keyboard">
+            <img src="/img/keyboard.jpg" alt="keyboard">
+            
+          </div>
+          <div class="column" id="col2">
+              <img src="/img/keyboard.jpg" alt="keyboard">
+              <img src="/img/tech.jpg" alt="keyboard">
+              <img src="/img/keyboard.jpg" alt="keyboard">
+              <img src="/img/code.jpg" alt="keyboard">
+              <p id="demo"></p>
+          </div>
+        </div>
         {{ content }}
       </div>
     </main>
@@ -15,5 +31,5 @@
     {% include footer.html %}
 
   </body>
-
+  <script src="js/picGrid.js"></script>
 </html>
