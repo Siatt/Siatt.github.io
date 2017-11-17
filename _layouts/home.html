@@ -1,9 +1,14 @@
 ---
 layout: home_default
 ---
+<head>
+  <meta content="Title" property="og:title">
+  <meta content="Type" property="og:type">
+  <meta content="Image" property="og:image">
+  <meta content="URL" property="og:url">
+</head>
 <div class="home">
   {{ content }}
-
   <h1 class="page-heading">Posts</h1>
   <ul class="post-list">
     {% for post in site.posts %}
