@@ -12,10 +12,11 @@ function setId () {
     document.getElementsByClassName('column')[1].setAttribute('style', 'opacity:1')
   }
 }
-window.onscroll = function () { myFunction() }
 
 function myFunction () {
-  if (document.body.scrollTop > 700 || document.documentElement.scrollTop > 700) {
+  if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
     setId()
   }
 }
+
+window.onscroll = function () { myFunction() }

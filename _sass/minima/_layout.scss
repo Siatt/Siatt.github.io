@@ -169,7 +169,11 @@
     80% {opacity: 1}
     100% {-webkit-transform: translateX(0px)}
   }
-
+  @media screen and (max-width: 697px) {
+    .column{
+      display: none;
+    }
+  }
 
 
   /**
