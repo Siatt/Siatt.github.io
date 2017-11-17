@@ -1,5 +1,1 @@
 User-agent: *
-Disallow:/*.js
-Disallow:/js/*.js
-Disallow:/about/index.html
-Disallow:/*.json
