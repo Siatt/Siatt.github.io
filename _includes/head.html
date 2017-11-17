@@ -2,22 +2,28 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-{% if page.title %}
-  <meta property="og:title" content="{{page.title}}" />
-{% else %}
-  <meta property="og:title" content="{{site.title}}" />
-{% endif %}
-  <meta property="og:locale" content="en_US" />
-{% if page.meta %}
-  <meta name="description" content="{{page.meta}}" />
-  <meta property:="og:description" content="{{page.meta}}" />
-{% else %}
- <meta name="description" content="{{site.description}}" />
- <meta property:="og:description" content="{{site.description}}" />
-{% endif %}
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="http://www.imdb.com/title/tt0117500/" />
-  <meta property="og:image" content="http://ia.media-imdb.com/images/rock.jpg" />
+    <!-- Begin Jekyll SEO tag v2.3.0 -->
+
+    {% if page.title %}
+    <meta property="og:title" content="{{page.title}}" />
+  {% else %}
+    <meta property="og:title" content="{{site.title}}" />
+  {% endif %}
+    <meta property="og:locale" content="en_US" />
+  {% if page.meta %}
+    <meta name="description" content="{{page.meta}}" />
+    <meta property:="og:description" content="{{page.meta}}" />
+  {% else %}
+   <meta name="description" content="{{site.description}}" />
+   <meta property:="og:description" content="{{site.description}}" />
+  {% endif %}
+  <link rel="canonical" href="{{site.url}}" />
+  <meta property="og:url" content="{{site.url}}" />
+  <meta property="og:site_name" content="Blog about stuff" />
+  <meta property="og:image" content="https://siatt.github.io/img/arrow-down2.png/img/hand.jpg">
+  <script type="application/ld+json">
+  {"name":null,"description":"A Jekyll plugin to add metadata tags for search engines and social networks to better index and display your site’s content.","author":null,"@type":"WebPage","url":"http://jekyll.github.io/jekyll-seo-tag/installation/","image":null,"publisher":null,"headline":"Installing Jekyll SEO Tag","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
+  <!-- End Jekyll SEO tag -->
   <link rel="author" href="humans.txt" />
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ " /feed.xml
