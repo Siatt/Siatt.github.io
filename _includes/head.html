@@ -12,14 +12,16 @@
     {% endif %}
       <meta property="og:locale" content="en_US" />
     {% if page.meta %}
-      <meta name="" content="{{page.meta}}" />
+      <meta name="description" content="{{page.meta}}" />
       <meta property:="og:description" content="{{page.meta}}" />
     {% else %}
      <meta name="description" content="{{site.description}}" />
      <meta property:="og:description" content="{{site.description}}" />
     {% endif %}
     <link rel="canonical" href="{{site.url}}" />
-    <meta property="og:url" content="{{site.url}}" />
+    {% if page.url %}
+    <meta property="og:url" content="{{site.url}}{{page.url}}" />
+    {% endif %}
     <meta property="og:site_name" content="{{site.title}}" />
     <meta property="og:image" content="https://siatt.github.io/img/hand.jpg">
     <meta property="og:image:url" content="https://siatt.github.io/img/hand.jpg">
