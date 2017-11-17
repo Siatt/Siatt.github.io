@@ -25,11 +25,6 @@ twitter_username: jekyllrb
 github_username:  jekyll
 humanstxt: humans.txt
 
-defaults:
-  - scope:
-      path: ""
-    values:
-      image: /img/keyboard.jpg
 # Build settings
 markdown: kramdown
 theme: minima
