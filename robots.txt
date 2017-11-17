@@ -2,4 +2,4 @@ User-agent: *
 Disallow:/*.js
 Disallow:/js/*.js
 Disallow:/about/index.html
-Dis allow:/*.json
+Disallow:/*.json
