@@ -1,9 +1,0 @@
----
-layout: blog_post
-title:  "Test post"
-date:   2017-11-13 12:11:21 -0600
-categories: jekyll update
----
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae laoreet nisi, vitae fermentum nulla. Nam ut auctor nisl. Suspendisse nec condimentum nibh. Curabitur vitae ipsum luctus nisi pharetra pellentesque at non magna. Pellentesque convallis neque quis sodales finibus. Curabitur ultricies luctus justo, et aliquet libero tempor nec. Vestibulum pulvinar diam a massa viverra, non suscipit quam semper. Nulla risus quam, fermentum at nisi eget, faucibus semper lacus. Quisque ut quam nisl. Donec ac congue nibh. Pellentesque hendrerit leo sed dolor fringilla, non ultricies est efficitur. Integer nibh dolor, lobortis non congue eu, sodales a augue. Nullam hendrerit aliquet maximus.
-
-Pellentesque a mi ac est hendrerit aliquam. Nulla facilisi. Sed faucibus dapibus sollicitudin. Proin eleifend tristique purus. Vivamus metus orci, porttitor a aliquam facilisis, ornare efficitur nulla. Pellentesque non tristique tortor. In vel enim hendrerit, porta massa ut, pretium odio. Morbi ultrices dolor sed ligula lobortis pharetra. Fusce sagittis consequat risus, at tempus tellus ultrices eu. Proin eu odio vitae augue ultrices ornare. Donec dictum elit a dui molestie, in posuere lorem luctus. Ut efficitur pharetra nibh at ullamcorper. Fusce a metus aliquam, ultrices odio laoreet, rhoncus neque. Morbi sed tempus nisl, eget tincidunt sapien. Proin a libero vulputate, consequat massa vitae, tempor lorem.

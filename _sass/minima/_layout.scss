@@ -132,6 +132,20 @@
     75%{-webkit-transform: translateY(15px);}
     100% {-webkit-transform: translateY(0px);}
   }
+  .to-top{
+    right: 30px;
+    bottom: 20px;
+    position: fixed;
+  }
+  .to-top:hover {
+    cursor: pointer;
+    text-decoration: dotted;
+  }
+  @media screen and (max-width: 697px) {
+    .to-top{
+      right: 5px;
+    }
+  }
   /**
   * Right pictures
   */
@@ -182,6 +196,8 @@
   .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
+    background-color: $grey-color-footer;
+    height: 100%;
   }
   
   .footer-heading {
