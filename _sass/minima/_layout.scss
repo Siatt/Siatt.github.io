@@ -121,9 +121,9 @@
   }
   .bounce{
     -webkit-animation: bounce 3s infinite;
-  }
-  .bounce:hover {
-    cursor:pointer ;
+    &:hover {
+      cursor:pointer;
+    }
   }
   @keyframes bounce {
     0% {-webkit-transform: translateY(0px);}
@@ -131,15 +131,6 @@
     50% {-webkit-transform: translateY(0px);}
     75%{-webkit-transform: translateY(15px);}
     100% {-webkit-transform: translateY(0px);}
-  }
-  .to-top{
-    right: 30px;
-    bottom: 20px;
-    position: fixed;
-  }
-  .to-top:hover {
-    cursor: pointer;
-    text-decoration: dotted;
   }
   @media screen and (max-width: 697px) {
     .to-top{

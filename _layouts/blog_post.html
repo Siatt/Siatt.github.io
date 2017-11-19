@@ -20,8 +20,7 @@ layout: default
     
   </div>
 
-  {% if site.disqus.shortname %}
+  {% if page.comments %}
     {% include disqus_comments.html %}
   {% endif %}
 </article>
-{% include disqus.html %}

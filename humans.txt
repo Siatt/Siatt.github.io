@@ -4,6 +4,6 @@ School emal:ls223jb@student.lnu.se
 Kalmar, Sweden
 /*SITE*/
 Last update: YYYY/MM/DD                          
-Standards: HTML5, CSS3,..                          
-Components: Modernizr, jQuery, etc.                           
-Software: Software used for the development
+Standards: HTML5, CSS3, js                          
+Components: Jekyll, Sass                          
+Software: Visual studio code, git
